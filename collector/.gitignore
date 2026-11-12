@@ -1,0 +1,13 @@
+# 运行产物与本地机密，一律不入库
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+.env
+*.env
+__pycache__/
+*.pyc
+.pytest_cache/
+*.csv
+!tests/**/*.csv
